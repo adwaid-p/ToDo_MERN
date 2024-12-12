@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "GeneralSans-Regular";
+    src: url('../public/fonts/GeneralSans-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: "GeneralSans-Medium";
+    src: url('../public/fonts/GeneralSans-Medium.otf') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+    color: white;
+    font-family: "GeneralSans", sans-serif;
+}

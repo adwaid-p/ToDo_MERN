@@ -1,0 +1,40 @@
+.register_body{
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #888;
+    padding: 40px;
+    text-align: center;
+}
+/* form h2 */
+form input{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #000;
+    border: 1px solid #888;
+    color: white;
+}
+form  button{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 15px;
+    border: 1px solid #888;
+    transition: all .23s ease-in-out;
+}
+form  button:hover{
+    background-color: #000;
+    color: white;
+}
